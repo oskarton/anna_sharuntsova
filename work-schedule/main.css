@@ -19,15 +19,22 @@
     align-items: center;
     color: white;
 }
-.date-item__datepicker{
+.date-item__date {
     height: auto;
     width: 100%;
     text-align: center;
     background: inherit;
     color: rgba(255, 255, 255, 0.74);
-
     font-family: "Comic Sans MS", "Lucida Sans Unicode", verdana;
-    font-weight: bold;
+    border: none;
+}
+
+.date-item__datepicker {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: inherit;
+    color: transparent;
     border: none;
 }
 
